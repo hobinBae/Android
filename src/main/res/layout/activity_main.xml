@@ -4,12 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation = "vertical"
     tools:context=".MainActivity">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/button1"
+        android:backgroundTint = "#FF0000"
+        android:text="@string/strBtn1"></Button>
+
     <Button
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:id = "@+id/button1"
-        android:text = "@string/strBtn1"
+        android:id = "@+id/button2"
+
+        android:backgroundTint = "#000000"
+        android:text = "@string/strBtn2"
+        ></Button>
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/button3"
+        android:backgroundTint = "#FF4500"
+        android:text = "@string/strBtn3"
+        ></Button>
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/button4"
+        android:backgroundTint = "#8B4513"
+        android:text = "@string/strBtn4"
         ></Button>
 
 
